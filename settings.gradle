@@ -1,0 +1,5 @@
+rootProject.name = 'ElegantNetworkingRoot_java16'
+includeFlat 'ElegantNetworkingCommon'
+includeFlat 'ElegantNetworkingAnnotationProcessor'
+includeFlat 'ElegantNetworking_1.17'
+
