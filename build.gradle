@@ -6,3 +6,7 @@ apply plugin: 'java'
 sourceCompatibility = 16
 
 ext.testBuild=true
+
+task publishAll_Libs {
+    dependsOn ":ElegantNetworking_1.17:publish"
+}
